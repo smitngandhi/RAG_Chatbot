@@ -1,8 +1,16 @@
-## RAG chatbot based on Virat kohli fron wikipedia
+## Virat Kohli RAG Chatbot
 
-##### Link :- `https://en.wikipedia.org/wiki/Virat_Kohli`
+This chatbot is built using Wikipedia data about **Virat Kohli**. 
 
-To run
+**Source:** [Virat Kohli - Wikipedia](https://en.wikipedia.org/wiki/Virat_Kohli)
+
+### How to Run
+```bash
 docker pull smit1025/rag_chatbot_virat_kohli
+
 docker run -p 5000:5000 smit1025/rag_chatbot_virat_kohli:latest
-visit localhost:5000
+```
+
+Then open your browser and go to:
+```
+http://localhost:5000
