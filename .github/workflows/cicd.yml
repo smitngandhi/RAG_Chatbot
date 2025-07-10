@@ -34,4 +34,4 @@ jobs:
                 context: .
                 file: ./Dockerfile
                 push: true
-                tags: ${{ secrets.DOCKER_USERNAME}}//rag_chatbot_virat_kohli:latest
+                tags: ${{ secrets.DOCKER_USERNAME }}/rag_chatbot_virat_kohli:latest
